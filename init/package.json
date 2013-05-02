@@ -1,0 +1,36 @@
+{
+  "name": "assemble-sandbox-init",
+  "description": "Some init files I can copy into my sandbox tests when I need something setup quickly.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/doowb/assemble-sandbox",
+  "author": {
+    "name": "doowb",
+    "url": "https://github.com/doowb"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/doowb/assemble-sandbox.git"
+  },
+  "bugs": {
+    "url": "git://github.com/doowb/assemble-sandbox/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/doowb/assemble-sandbox/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "./Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.1.0",
+    "grunt-contrib-watch": "~0.2.0",
+    "assemble": "https://github.com/assemble/assemble/tarball/master"
+  }
+}
